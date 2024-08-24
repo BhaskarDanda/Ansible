@@ -1,0 +1,13 @@
+---
+# Tasks related to file management
+
+- name: Ensure the file is present
+  file:
+    path: "{{ file_path }}"
+    state: touch
+
+- name: Add content to the file
+  copy:
+    content: "{{ content }}"
+    dest: "{{ file_path }}"
+    mode: '0644'
