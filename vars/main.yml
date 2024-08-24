@@ -1,0 +1,4 @@
+---
+user_name: "exampleuser"
+file_path: "/tmp/examplefile.txt"
+content: "This is an example file content."
